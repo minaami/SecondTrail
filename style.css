@@ -1,0 +1,290 @@
+body{
+      background-color: rgb(35, 35, 132);
+      font-size: 16px;
+      font-family: 'Courier New', Courier, monospace;
+}
+#header-nav{
+      background-color: rgb(171, 173, 200);
+      border-radius:  0;
+      border: 0;
+     
+}
+#logo-img{
+      background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxccEapX4RlO75-aW6AynjSm7NXIebUFRZ6a4-5rEbFjA4y_YSQs9hZd8AkHnZuDq1zy0&usqp=CAU') no-repeat;
+      background-size: cover;
+      border-radius: 50%;
+      height: 150px;
+      width: 150PX;
+      margin: 10px 15px 10px 2px;
+
+}
+
+.navbar-brand{
+      padding-top: 25px;
+}
+.navbar-brand h1{
+      font-family: 'Sassy Frass',serif ;
+      color: #000f;
+      font-size: 22px;
+      text-transform: uppercase;
+      font-weight: bold;
+      text-shadow: 1px 1px 1px  #0a0101;
+      margin: top 0;
+      margin-bottom: 0;
+     line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+      text-decoration: none;
+}
+
+.navbar-brand p {
+      color: rgb(40, 2, 2);
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-top: 15px;
+      font-style: italic;
+}
+.navbar-brand p img{
+      height: 8px;
+}
+.navbar-brand p span{
+     vertical-align: middle;
+}
+.navbar-toggler button.navbar-toggler {
+      display: block;
+      color: blue;
+      position: relative;
+      top: 10px;
+      float: right;
+      width: .9cm;
+      height: .7cm;
+      padding: 8px, 10px;
+      border-radius: 4px;
+      margin-top: 0px;
+      margin-bottom: 5px;
+      margin-right: 2px;
+      background-color: transparent;
+      background-image: none;
+      border: 2px solid blueviolet;
+    
+
+
+}
+@media (min-width: 700PX){
+.navbar-toggler{
+      display: none;
+}
+}
+.fa-solid {
+      font-size: 31px;
+      color: blue;
+}
+    #nav-list {
+      margin-top: 10px;
+    }
+    #nav-list a {
+      color: #1c1c95;
+      text-align: center;
+    }
+    #nav-list a:hover {
+      background: #e2dcdf;
+    }
+    #nav-list a span {
+      font-size: 1.5em;
+    }
+
+    #phone {
+      margin-top: 1px;
+    }
+    #phone a { /* Phone number */
+      text-align: center;
+      padding-bottom: 0;
+    }
+    #phone div { /* call*/
+      color: #557c3e;
+      text-align: center;
+      padding-right: 32px;
+     
+    }
+
+    .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+      border: 1px solid #61122f;
+    }
+    
+    .navbar-header button.navbar-toggle {
+      clear: both;
+      margin-top: -30px;
+     
+    }
+   button.navbar-toggler{
+      display: hidden;
+      style
+   }
+    /*end of header*/
+    /**footer**/
+    .panel-footer{
+      margin-top: 20px;
+      padding: 3Px 3px ;
+      color: #140b0b;
+      border-top: 0;
+      background-color: #a39ccf;
+}
+      .panel-footer div.row {
+            margin-bottom: 35px;
+          }
+          #hours, #address {
+            line-height: 2;
+          }
+          #hours > span, #address > span {
+            font-size: 1.3em;
+          }
+          #address p {
+            color: #1a4d5d;
+            font-size: .8em;
+            line-height: 1.8;
+          }
+          #testimonials {
+            font-style: italic;
+          }
+          #testimonials p:nth-child(2) {
+            margin-top: 25px;
+          }
+          /* END FOOTER */
+
+    
+    
+    .container .jumbotron{
+      box-shadow: 0 0 50px rgb(53, 53, 49);
+      border: 2px solid brown;
+    }
+
+    #menu-tile, #specials-tile, #map-tile{
+      width: 250px; ;
+      height: 250px;
+      margin-bottom: 15px;
+      position: relative;
+      border: 2px solid #61122f;
+      overflow: hidden;
+     
+    }
+    #menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+      box-shadow: 0 1px 5px 1px #cccccc;
+    }
+    /*background img for footer*/
+    #menu-tile{
+      background: url('images/i8238-maki-sushi.jpeg') no-repeat;
+      background-position: center;
+     }
+     #specials-tile{
+      background:url('images/daily-seafood-specials.jpg')no-repeat;
+      background-position: center;
+     }
+/*position the menu & specials & map in the bottom of the tile*/ 
+     #menu-tile span ,#specials-tile span, #map-tile span{
+      position: absolute;
+      color: #fff;
+      font-size: 1.5em;
+      opacity: .7;
+      text-align: center;
+      text-transform: uppercase;
+      width: 100%;
+      bottom: 0;
+      right: 0;
+      background-color: #000f;
+     }
+     #menu-tile , #specials-tile{
+      width: 250px;
+      margin: 0 auto 15px;
+     }
+     
+    /**for large devices**/
+    @media((min-width:700px )and (max-width: 1000px)){
+      #logo-img{
+            background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxccEapX4RlO75-aW6AynjSm7NXIebUFRZ6a4-5rEbFjA4y_YSQs9hZd8AkHnZuDq1zy0&usqp=CAU') no-repeat;
+            height: 90px;
+            width: 90PX;
+            margin: 5px 5px 1px 0px;
+    }
+    .container .jumbotron{
+      background: url('https://lh3.googleusercontent.com/p/AF1QipNxEuu2lqOt3KF23waXR4qdLjMGFel-Oa2JQcAM=s1360-w1360-h1020')no-repeat;
+      height: 800px;
+      box-shadow: 3px 0 50px yellow;
+      border: 1px solid brown;
+}
+}
+
+    /**for medium devices**/
+    @media((min-widtch:500px )and (max-width: 699px)){
+      .container .jumbotron{
+            background: url('https://lh3.googleusercontent.com/p/AF1QipNxEuu2lqOt3KF23waXR4qdLjMGFel-Oa2JQcAM=s1360-w1360-h1020')no-repeat;
+            height: 300px;
+            box-shadow: 0 0 50px yellow;
+            border: 2px solid brown;
+      }
+
+    }
+    /**for small devices**/
+    @media(max-width: 499px){
+      .navbar-brand{
+            padding-top: 10px;
+            height: 22px;
+            box-shadow:0 0 50px yellow;
+      }
+      .navbar-brand h1{
+            font-family: 'Sassy Frass',serif ;
+            color: #000f;
+            font-size: 5vw;/*1vw = 1% of viewport width so will be relative */
+            text-transform: uppercase;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px  #0a0101;
+            margin: top 0;
+            margin-bottom: 0;
+           line-height: .75;
+      }
+
+      .navbar-brand p {
+            color: rgb(40, 2, 2);
+            text-transform: uppercase;
+            font-size: 14px;
+            margin-top: 15px;
+            font-style: italic;
+         
+      }
+      .navbar-brand p img{
+            height: 4px;
+      }
+      /*end header*/
+      /*footer*/
+      .panel-footer section{
+      margin-bottom: 2px;
+      text-align: center;
+      }
+      .panel-footer section :nth-child(3){
+      margin-bottom: 0;
+      }
+      .panel-footer section hr{
+      width: 50%;
+      }
+      .container .jumbotron{
+            background: url('https://lh3.googleusercontent.com/p/AF1QipNxEuu2lqOt3KF23waXR4qdLjMGFel-Oa2JQcAM=s1360-w1360-h1020')no-repeat;
+            height: 800px;
+            box-shadow: 0 0 50px rgb(40, 40, 37);
+            border: 2px solid brown;
+            padding: 0;
+            margin: 0px;
+      }
+      #menu-tile, #specials-tile{
+            width: 200px;
+            margin: 0 auto 15px;
+      }
+      #map-tile{
+            width:350px;
+            margin: 0 auto 15px;
+      }
+      .navbar-brand h1{/*resturent name*/
+            font-size: 8Vm;
+            padding-top: 5px;
+
+      }
+    }
+

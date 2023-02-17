@@ -1,0 +1,13 @@
+body{
+      box-sizing: border-box;
+}
+.row{
+      margin-bottom: 15px;   
+      margin-top: 10px;  
+}
+.row >div{
+      border: 3px solid brown;
+      background-color: palegoldenrod;
+      margin-bottom:12px;
+}
+
